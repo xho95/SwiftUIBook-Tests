@@ -18,7 +18,9 @@ struct HelloWorldApp: App {
 ```
 
 * `@main` : Attribute
-* `WindowGroup` : Scene Structure
+* `App` : Protocol - App
+* `some Scene` : Opaque Type - Scene
+* `WindowGroup` : a Scene
 
 ### ContentView
 
@@ -39,9 +41,11 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
-* `ContentView` : Structure
-* `some View` : Opaque Type
+* `View` : Protocol - View
+* `some View` : Opaque Type - View
+* `Text` : a View
 * `.padding()` : Modifier
+* `var body` : Automatic Return - Single Statement  
 
 ### Assets
 
