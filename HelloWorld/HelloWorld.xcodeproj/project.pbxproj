@@ -22,6 +22,7 @@
 		2C413081285087A7009BC8E5 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C413087285087A7009BC8E5 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C413089285087A7009BC8E5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2C41309828508A98009BC8E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		2C413074285087A5009BC8E5 = {
 			isa = PBXGroup;
 			children = (
+				2C41309828508A98009BC8E5 /* README.md */,
 				2C413079285087A6009BC8E5 /* Shared */,
 				2C413088285087A7009BC8E5 /* macOS */,
 				2C413082285087A7009BC8E5 /* Products */,
